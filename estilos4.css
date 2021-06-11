@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Overpass+Mono:wght@300;400;700&display=swap');
+
+
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: bisque;
+}
+
+.redes-sociales{
+    background-color: burlywood;
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-redes a{
+    color:rgb(245, 245, 245);
+}
+
+nav{
+    height: 80px;
+    background-color: cornsilk;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-family: 'Roboto';
+    
+}
+
+nav .menu-navegacion ul{
+    display:flex;
+    list-style: none;
+    
+}
+
+nav .logotipo-header img{
+    height: 70px;
+}
+
+nav .menu-navegacion ul li{
+    margin-right:30px;
+}
+
+.contenedor-redes i{
+    margin-right: 15px;
+}
+
+.menu-navegacion a{
+    text-decoration: none;
+    color:  #2c1d28;
+}
+.titulo a{
+    color: black;
+    height: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-size: 15px;
+    display: flex;
+}
+
+.titulo h1{
+    color: black;
+    height: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.subtitulo-text{
+    width: 37%;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.subtitulo-img {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+}
+
+.subtitulo p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.subtitulo h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    text-align: left;
+}
+
+.final{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.subtitulo img{
+    height: 300px;
+    border-radius: 10px;
+}
